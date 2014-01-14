@@ -9,7 +9,7 @@ for (var i = 0; i < relatedBugs.length; i++) {
   var id = bug.getAttribute("data-id");
   var status = bug.getAttribute("data-status");
   var resolution = bug.getAttribute("data-resolution");
-  resolution = resolution.length == 0 ? "---" : resolution;
+  resolution = resolution == null || resolution.length == 0 ? "---" : resolution;
   var summary = bug.getAttribute("data-summary");
   message += "\n";
   message += id+" "+status+" "+resolution+" "+summary;
