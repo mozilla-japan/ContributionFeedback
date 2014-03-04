@@ -1,0 +1,53 @@
+/*
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this file,
+You can obtain one at http://mozilla.org/MPL/2.0/. 
+*/
+
+.panel-mainview {
+  max-width: 1000px !important; 
+}
+
+.panel-subviews {
+  display: none !important;
+}
+
+.FeedbackUI {
+  border: 1px solid gray;
+  border-bottom: none;
+  margin: 0px 10px;
+  background-repeat: no-repeat;
+  font-size: 12px;
+}
+
+.FeedbackUI:last-child {
+  border-bottom: 1px solid gray;
+}
+
+.FeedbackUI:hover {
+  border-color: blue;
+}
+
+.updatedLabel {
+  min-width: 180px;
+  max-width: 180px;
+  margin-right: 0;
+}
+
+.resolvedLabelContainer {
+  min-width: 100px;
+  max-width: 100px;  
+  margin-left: -2px;
+}
+
+.resolvedLabel {
+}
+
+.imageBox {
+}
+
+.userImage {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+}

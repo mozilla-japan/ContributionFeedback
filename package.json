@@ -2,8 +2,9 @@
   "name": "crash_report_feedback",
   "fullName": "crash_report_feedback",
   "id": "jid1-cYDHCJ6X1ryKRQ",
-  "description": "a basic add-on",
-  "author": "",
+  "main": "main",
+  "description": "track your contributions",
+  "author": "Daisuke Akatsuka",
   "license": "MPL 2.0",
   "version": "0.1"
 }
