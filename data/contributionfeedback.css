@@ -40,12 +40,18 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
 }
 
 .resolvedLabelContainer {
-  min-width: 100px;
   max-width: 100px;  
-  margin-left: -2px;
+  min-width: 100px;  
 }
 
-.resolvedLabel {
+.noupdate .resolvedLabelContainer {
+  max-width: 100px;  
+  min-width: 100px;  
+}
+
+.noupdate .resolvedLabel {
+  max-width: 95px;  
+  min-width: 95px;  
 }
 
 .imageBox {
@@ -55,4 +61,5 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
   width: 16px;
   height: 16px;
   margin: 2px;
+  background-color: gray;
 }
