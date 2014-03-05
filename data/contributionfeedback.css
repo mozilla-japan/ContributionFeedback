@@ -28,6 +28,10 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
   border-color: blue;
 }
 
+.FeedbackUI.noupdate {
+  background-color: #ddd;
+}
+
 .updatedLabel {
   min-width: 190px;
   max-width: 190px;
