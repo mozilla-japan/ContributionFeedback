@@ -32,9 +32,10 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
   background-color: #ddd;
 }
 
+.labelBox {
+}
+
 .updatedLabel {
-  min-width: 190px;
-  max-width: 190px;
   margin-right: 0;
 }
 
