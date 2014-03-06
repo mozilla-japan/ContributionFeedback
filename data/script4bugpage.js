@@ -15,7 +15,7 @@ for (var i = 0, n = ths.length; i < n; i++) {
 }
 var tds = document.querySelectorAll("#bz_show_bug_column_2 td");
 var targetLastModified = tds[indexOfLastModified].textContent;
-var regexLastModified = /^\s*(.+)\D\D\D\n/;
+var regexLastModified = /^\s*(\S+)/;
 var resultLastModified = regexLastModified.exec(targetLastModified);
 var lastModified = resultLastModified[1];
 message += lastModified;

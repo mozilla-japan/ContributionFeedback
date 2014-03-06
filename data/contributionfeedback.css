@@ -16,8 +16,20 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
   border: 1px solid gray;
   border-bottom: none;
   margin: 0px 10px;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   font-size: 12px;
+}
+
+.FeedbackUI.complete {	
+  background-image: url(complete.png);
+}
+
+.FeedbackUI.progress {	
+  background-image: url(progress.png);
+}
+
+.FeedbackUI.noupdate {
+  background-color: #ddd;
 }
 
 .FeedbackUI:last-child {
@@ -28,30 +40,46 @@ You can obtain one at http://mozilla.org/MPL/2.0/.
   border-color: blue;
 }
 
-.FeedbackUI.noupdate {
-  background-color: #ddd;
+.labelBox {
+  margin-left: -5px;
 }
 
-.labelBox {
+.createdLabel {
+  padding-top: 2px;
+  font-size: 10px;
 }
 
 .updatedLabel {
-  margin-right: 0;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  padding-left: 20px;
+}
+
+.updatedLabel.recently {
+  background-image: url(progress-recently-icon.png);  
+}
+
+.updatedLabel.progress {	
+  background-image: url(progress-icon.png);  
+}
+
+.updatedLabel.complete {	
+  background-image: url(complete-icon.png);
 }
 
 .resolvedLabelContainer {
-  max-width: 100px;  
-  min-width: 100px;  
+  max-width: 70px;  
+  min-width: 70px;  
 }
 
 .noupdate .resolvedLabelContainer {
-  max-width: 100px;  
-  min-width: 100px;  
+  max-width: 150px;  
+  min-width: 150px;  
 }
 
 .noupdate .resolvedLabel {
-  max-width: 95px;  
-  min-width: 95px;  
+  max-width: 145px;  
+  min-width: 145px;  
 }
 
 .imageBox {
