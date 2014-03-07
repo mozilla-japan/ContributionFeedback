@@ -8,7 +8,7 @@ var notfoundORarchive = pageHeading.length == 0;
 if (notfoundORarchive == true) {
   self.postMessage("");
 } else {
-  var message = document.title;
+  var message = pageHeading[0].textContent.trim();
   var relatedBugs = document.querySelectorAll(".bug-link-with-data");
   for (var i = 0; i < relatedBugs.length; i++) {
   	var bug = relatedBugs[i]
