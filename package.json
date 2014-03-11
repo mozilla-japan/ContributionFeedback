@@ -1,9 +1,9 @@
 {
-  "name": "crash_report_feedback",
-  "fullName": "crash_report_feedback",
-  "id": "jid1-cYDHCJ6X1ryKRQ",
+  "name": "mycontributions",
+  "fullName": "My Contributions",
+  "id": "jid1-1XwMcdtbyU5u7A",
   "main": "main",
-  "description": "track your contributions",
+  "description": "This add-on visualizes your contributions of crash report.",
   "author": "Daisuke Akatsuka",
   "license": "MPL 2.0",
   "version": "0.1"
